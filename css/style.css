@@ -9,6 +9,7 @@ body,
 
 body {
   background: #fff;
+  cursor:pointer;
   color: #69606b;
   font-weight: 400;
   font-size: 14px;
@@ -1057,4 +1058,44 @@ body.modal-open .cross-portfolio {
     font-size: 40px;
     line-height: 68px;
   }
+  .wwd-css{
+    width: 100%;
+  }
+  #canvasOne{
+    width: 100%;
+  }
+
+
+  .text-justify{
+    display:block;
+    /*渐变背景，此处为能无缝拼接的渐变 即0~100%*/   /*linear-gradient(线性渐变)*/
+           background-image:-webkit-linear-gradient(left,#3498db,#f47920 10%,#d71345 20%,#f7acbc 30%,#ffd400 40%,#3498db 50%,#f47920 60%,#d71345 70%,#f7acbc 80%,#ffd400 90%,#3498db);
+    color:transparent;
+    /*文字填充色为透明*/
+  
+              -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    /* background-clip 规定背景的绘制区域：*/     
+              -webkit-background-size:200% 100%;
+    /*背景图片向水平方向扩大一倍，这样background-position才有移动与变化的空间*/
+              background-size:200% 100%;
+    /* 动画 */
+              -webkit-animation:masked-animation 4s infinite linear;
+  }
+  @keyframes masked-animation {
+    0% {
+    background-position:0 0;
+    /*background-position 属性设置背景图像的起始位置。*/
+  }
+  100% {
+    background-position:-100% 0;
+  }
+  }@-webkit-keyframes masked-animation {
+    0% {
+    background-position:0 0;
+  }
+  100% {
+    background-position:-100% 0;
+  }
+}
 }
