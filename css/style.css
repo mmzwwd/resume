@@ -9,8 +9,7 @@ body,
 
 body {
   background: #fff;
-  cursor:poiter;
-  /* cursor:url('//at.alicdn.com/t/font_1235267_yyuowun8068.eot'), auto; */
+  cursor:pointer;
   color: #69606b;
   font-weight: 400;
   font-size: 14px;
