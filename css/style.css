@@ -16,9 +16,9 @@ body {
   font-family: 'Raleway', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-  cursor: url('http://test.mumzone.cn/egg_public/upload/getFile?id=93ce4a1d80e34650b0fabe7ab405e525'), auto !important;
 }
-
+body{cursor:url(../img/favicon.ico),help;}
+html{cursor:url(../img/favicon.ico),help;}
 
 /* Common css */
 

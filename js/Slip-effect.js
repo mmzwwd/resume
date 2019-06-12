@@ -8,12 +8,12 @@ var H = 0;
 $(document).bind('mousemove touchmove', function (e) {
     e.preventDefault();
     var drawSize = 1;
-    var drawType = '🐴';
+    var drawType = 'O';
     // ✭
     var floatType = 'floatOne';
     var xPos = e.originalEvent.pageX;
     var yPos = e.originalEvent.pageY;
-    $('body').append('<div class="draw" style="font-size:' + drawSize + 'px;left:' + xPos + 'px;top:' + yPos + 'px;-webkit-animation:' + floatType + ' .9s 1;-moz-animation:' + floatType + ' .9s 1;color:#FFFF00;">' + drawType + '</div>');
+    $('body').append('<div class="draw" style="font-size:' + drawSize + 'px;left:' + xPos + 'px;top:' + yPos + 'px;-webkit-animation:' + floatType + ' .9s 1;-moz-animation:' + floatType + ' .9s 1;color:#67C23A;">' + drawType + '</div>');
     $('.draw').each(function () {
         var div = $(this);
         setTimeout(function () { $(div).remove(); }, 800);
