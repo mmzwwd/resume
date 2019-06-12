@@ -9,7 +9,7 @@ body,
 
 body {
   background: #fff;
-  cursor:pointer;
+  cursor:url(../img/sb.png), auto;
   color: #69606b;
   font-weight: 400;
   font-size: 14px;
