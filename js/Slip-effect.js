@@ -8,7 +8,7 @@ var H = 0;
 $(document).bind('mousemove touchmove', function (e) {
     e.preventDefault();
     var drawSize = 1;
-    var drawType = '💨';
+    var drawType = 'mmz';
     // ✭
     var floatType = 'floatOne';
     var xPos = e.originalEvent.pageX;
